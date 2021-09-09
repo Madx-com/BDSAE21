@@ -4,12 +4,24 @@ using HelloWorld;
 
 namespace HelloWorld.Tests
 {
-    public class UnitTest1
+    public class HelloWorldTest
     {
-        [Fact]
-        public void Test1()
+        [Theory]
+        [InlineData(1612)]
+        [InlineData(1760)]
+        [InlineData(1600)]
+        [InlineData(2000)]
+        public void IsYearDivByFour(int candidate)
         {
-            new Program();
+            // Arrange
+            bool isleap = false;
+            var pro = new Program();
+
+            // Act
+            isleap = Program.IsLeapYear(candidate);
+
+            // Assert
+            Assert.True(isleap);
         }
     }
 }
