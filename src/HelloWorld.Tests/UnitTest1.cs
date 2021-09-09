@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using HelloWorld;
 
 namespace HelloWorld.Tests
 {
@@ -8,7 +9,7 @@ namespace HelloWorld.Tests
         [Fact]
         public void Test1()
         {
-
+            new Program();
         }
     }
 }
