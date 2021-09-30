@@ -7,3 +7,6 @@
 [submodule "NaaForkAs1"]
 	path = NaaForkAs1
 	url = C:\\Users\\mads\\Desktop\\School\\SchoolE21\\BDSAE21\\NaaForkAs1
+[submodule "Assignment1"]
+	path = Assignment1
+	url = https://github.itu.dk/BDSA2021/Assignment1.git
