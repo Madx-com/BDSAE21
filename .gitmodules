@@ -10,3 +10,6 @@ url=https://github.itu.dk/naaa/Assignment1.git
 [submodule "Assignment1"]
 	path = Assignment1
 	url = https://github.itu.dk/BDSA2021/Assignment1.git
+[submodule "Assignment4"]
+	path = Assignment4
+	url = https://github.com/AntonFriis/BDSA2021-Assignment4.git
