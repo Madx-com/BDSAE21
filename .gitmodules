@@ -13,3 +13,6 @@ url=https://github.itu.dk/naaa/Assignment1.git
 [submodule "Assignment4"]
 	path = Assignment4
 	url = https://github.com/AntonFriis/BDSA2021-Assignment4.git
+[submodule "Assignment5"]
+	path = Assignment5
+	url = https://github.itu.dk/csbe/Assignment5.git
